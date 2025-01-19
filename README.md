@@ -20,3 +20,7 @@ jupyter nbconvert --to html --execute --no-input --embed-images lab1/report.ipyn
 
 This will generate a file at lab1/report.html.
 Open report.html in a browser and then "print to PDF".
+
+TODO:
+
+[ ] Move to [Mercury](https://runmercury.com/) so that people can type in data and print a lab report without manipulating source data files.
