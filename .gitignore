@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.venv
+data.csv
+labmeta.yaml
+report.html
+report.pdf
