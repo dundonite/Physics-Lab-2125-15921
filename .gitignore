@@ -4,3 +4,5 @@ data.csv
 labmeta.yaml
 report.html
 report.pdf
+celerybeat-schedule.db
+django-errors.log
