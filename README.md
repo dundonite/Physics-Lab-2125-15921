@@ -1,26 +1,29 @@
 # Physics Lab 2125 15921
-## Lab Reports
 
-Jupyter Notebooks to render basic lab reports.
+## Viewing Lab Reports
 
-Install Jupyter lab with Python pip (an exercise left to the reader for now).
+Lab Report 1 is available at http://6252-phys-2125-15921.home.dundon.network:9876/app/report
+This will be updated after 2025-01-20 to support SSL and multiple reports.
+Enter your information into the form on the left-hand side.
+For future reports you will also need to upload a 'data.csv' file containing your data in a specific format.
+Per the UI instructions, "press enter or click to apply" and ensure that the report contains your information.
+Use the download button to download as HTML. Downloading as PDF will not work (idk).
+Until an SSL is added you may receive a warning from your browser, so accept the risk to download the html file.
+Open the html file in your browser and then "print as PDF".
+
+## Building Reports
+
+This project uses Jupyter Notebooks and Mercury to render basic lab reports.
+
+Install Jupyter lab and Mercury with Python pip
 
 Each lab is stored in a separate folder. The most recent lab should serve as the working example.
 I.e. check out [lab1](lab1/) for an example report.
-A labmeta.yaml file contains the basic information for the lab, such as that presented on the cover page.
-A data.csv file contains the lab data.
-**You will need to provide or update labmeta.yaml and data.csv!!! If these files are provided at all they will be filled with garbage data.**
 
 A report.ipynb contains the Markdown and Python to generate the lab report.
 
-Execute the report and save to html
-```bash
-jupyter nbconvert --to html --execute --no-input --embed-images lab1/report.ipynb
-```
-
-This will generate a file at lab1/report.html.
-Open report.html in a browser and then "print to PDF".
+Mercury is used to serve the reports, and the mercury library is used for user inputs.
 
 TODO:
 
-[ ] Move to [Mercury](https://runmercury.com/) so that people can type in data and print a lab report without manipulating source data files.
+- [x] Move to [Mercury](https://runmercury.com/) so that people can type in data and print a lab report without manipulating source data files.
