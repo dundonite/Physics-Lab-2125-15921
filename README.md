@@ -2,14 +2,13 @@
 
 ## Viewing Lab Reports
 
-Lab Report 1 is available at http://6252-phys-2125-15921.home.dundon.network:9876/app/lab1
+An index of lab reports is available at http://6252-phys-2125-15921.home.dundon.network:9876/app/lab1
+
+You are going to get warnings about lacking SSL/security, you'll need to click through those for now.
 
 1. Enter your information into the form on the left-hand side.
-1. Epload a 'data.csv' file containing your data in a specific format.
-   1. column names are "x (meters)" and "y (meters)"
-1. Per the UI instructions, "press enter or click to apply" and ensure that the report contains your information.
+1. Upload a CSV file that matches the structure of the example CSV in the source directory. Column names do not matter and will be overwritten.
 1. Use the download button to download as HTML. Downloading as PDF will not work (idk).
-1. Until an SSL is added you may receive a warning from your browser, so accept the risk to download the html file.
 1. Open the html file in your browser and then "print as PDF".
 
 ## Building Reports
