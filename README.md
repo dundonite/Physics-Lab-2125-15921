@@ -2,7 +2,7 @@
 
 ## Viewing Lab Reports
 
-An index of lab reports is available at http://6252-phys-2125-15921.home.dundon.network:9876/app/lab1
+An index of lab reports is available at http://6252-phys-2125-15921.home.dundon.network:9876/
 
 You are going to get warnings about lacking SSL/security, you'll need to click through those for now.
 
