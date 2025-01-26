@@ -13,15 +13,11 @@ You are going to get warnings about lacking SSL/security, you'll need to click t
 
 ## Building Reports
 
-This project uses Jupyter Notebooks and Mercury to render basic lab reports.
-
-Install Jupyter lab and Mercury with Python pip
+This project uses Jupyter and Mercury to render basic lab reports. Install them as you see fit and run them from the base directory.
 
 The most recent lab should serve as the working example, others may not work as expected.
 
-Mercury is used to serve the reports, and the mercury library is used for user inputs. You can run the notebook locally or use the server linked above.
-
-TODO:
+## Backlog
 
 - [x] Move to [Mercury](https://runmercury.com/) so that people can type in data and print a lab report without manipulating source data files.
 - [ ] SSL on port 443
