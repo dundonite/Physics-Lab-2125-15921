@@ -30,3 +30,5 @@ TODO:
 - [ ] SSL on port 443
 - [x] Support for multiple reports
 - [x] Support for uploading files
+- [ ] Add automatic build process for html and pdf (for demo, doc, and local dev)
+
