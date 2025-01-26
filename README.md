@@ -17,12 +17,9 @@ This project uses Jupyter Notebooks and Mercury to render basic lab reports.
 
 Install Jupyter lab and Mercury with Python pip
 
-Each lab is stored in the same folder, using file names like lab1.ipynb 
-The ipynb file contains the Markdown and Python to generate the lab report.
-The most recent lab should serve as the working example.
-I.e. check out [lab1](lab1.ipynb) for an example report.
+The most recent lab should serve as the working example, others may not work as expected.
 
-Mercury is used to serve the reports, and the mercury library is used for user inputs.
+Mercury is used to serve the reports, and the mercury library is used for user inputs. You can run the notebook locally or use the server linked above.
 
 TODO:
 
