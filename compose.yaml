@@ -1,0 +1,15 @@
+services:
+  jupyter:
+    build:
+      context: .
+    ports:
+      - 8888:8888
+      - 8000:8000
+    volumes:
+#      - jupyter-data:/home/jovyan/work
+      - $PWD:/home/jovyan:Z
+    command: ./run.sh
+
+volumes:
+  jupyter-data:
+    name: jupyter-data

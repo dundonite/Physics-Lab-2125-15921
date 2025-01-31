@@ -6,3 +6,8 @@ report.html
 report.pdf
 celerybeat-schedule.db
 django-errors.log
+celerybeat*
+.cache
+.ipython
+.jupyter
+.local
