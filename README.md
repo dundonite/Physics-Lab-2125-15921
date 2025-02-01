@@ -10,6 +10,7 @@ Template data files can be found in [Gooogle Drive: Physics-Lab-2125-15921 Templ
 
 - [lab1](https://docs.google.com/spreadsheets/d/1wSx6VaDywyvvPgDsdjTuujIX6PDO2vRmoLx-uuOVQX4/template/preview)
 - [lab2](https://docs.google.com/spreadsheets/d/11wEjnU5UkiP-4KdYe_qCkC77knxxLokHYq-z1BRQ1aU/template/preview)
+- [lab3](https://docs.google.com/spreadsheets/d/11ICcsUOacl7RzQgDNj6e7k71PA8E1IST2j4s84a9IJk/template/preview)
 
 The most recent lab should serve as the working example.
 For each lab (thus far) you will need a CSV file.
@@ -33,6 +34,7 @@ Feedback needed: Is it easier to work with Python or Docker? I'm guessing Docker
 ### Using Docker Compose
 
 Install Docker Desktop or Docker & Docker Compose by whatever method suits you.
+Just find a way to run a Linux container.
 Run the compose.yaml file. 
 There are many guides online, just Google "docker compose".
 In a properly configured Linux environment this should be as simple as running the following command from the directory repo.
