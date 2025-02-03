@@ -7562,14 +7562,13 @@ Date: <strong>2025-01-31</strong></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p style="page-break-after:always;"></p>
-<h2 id="Theory">Theory<a class="anchor-link" href="#Theory">¶</a></h2><p>The density, $d$, mass, $m$, and volume, $V$, of an object are related per the following equation:</p>
+<h2 id="Theory">Theory<a class="anchor-link" href="#Theory">¶</a></h2><p>The density, $d$, mass, $m$, and volume, $V$, of an object are related as follows.</p>
 <p>$ \begin{align*}
 Density\; (ρ) &amp;= \frac{mass\; (m)}{volume\; (V)} \\
 ρ             &amp;= \frac{m}{V} \\
 m             &amp;= ρ \times V
 \end{align*}$</p>
-<p>The volume, $V$, of a cylinder can be calculated as $V = \pi \times r^2 \times h $</p>
+<p>The volume, $V$, of a cylinder can be calculated as $V = \pi r^2 \times h $</p>
 <p>The volume, $V$, of a rectangular cuboid can be calculated as $ V = l \times w \times h $</p>
 </div>
 </div>
@@ -7599,7 +7598,10 @@ m             &amp;= ρ \times V
 <li>For the blocks the length, $l$, width, $w$, and height, $h$, were measured.</li>
 </ol>
 </li>
-<li>The volume, $V$, was calulcated using the measurements taken and the formulas above.</li>
+<li>The volume, $V$, was calulcated using the measurements taken and the formulas above.<ol>
+<li>Of course because we measured the diamerter of the cylinders, and not their radius, we had to calculate that value ($r = \frac{d}{2}$).</li>
+</ol>
+</li>
 <li>With the volume, $V$, and the known density, $ρ$, of the materials in question (aluminum and brass), the mass, $m$ was calculated.</li>
 </ol>
 </div>
@@ -7611,7 +7613,6 @@ m             &amp;= ρ \times V
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p style="page-break-after:always;"></p>
 <h2 id="Data">Data<a class="anchor-link" href="#Data">¶</a></h2>
 </div>
 </div>
@@ -7645,19 +7646,19 @@ m             &amp;= ρ \times V
 <tbody>
 <tr>
 <th>Aluninum Cylinder</th>
-<td>0.2</td>
-<td>0.1</td>
-<td>0.5</td>
-<td>0.015708</td>
-<td>42.4115</td>
+<td>0.0222</td>
+<td>0.0111</td>
+<td>0.0635</td>
+<td>0.000025</td>
+<td>0.0662</td>
 </tr>
 <tr>
 <th>Brass Cylinder</th>
-<td>0.2</td>
-<td>0.1</td>
-<td>0.5</td>
-<td>0.015708</td>
-<td>137.1305</td>
+<td>0.0222</td>
+<td>0.0111</td>
+<td>0.0635</td>
+<td>0.000025</td>
+<td>0.2146</td>
 </tr>
 </tbody>
 </table><table border="1" class="dataframe">
@@ -7667,7 +7668,7 @@ m             &amp;= ρ \times V
 <th>Length (meters)</th>
 <th>Width (meters)</th>
 <th>Height (meters)</th>
-<th>Volume (cubit meters)</th>
+<th>Volume (cubic meters)</th>
 <th>Mass (kilograms)</th>
 </tr>
 <tr>
@@ -7682,19 +7683,19 @@ m             &amp;= ρ \times V
 <tbody>
 <tr>
 <th>Aluminum Block</th>
-<td>0.2</td>
-<td>0.4</td>
-<td>0.3</td>
-<td>0.024</td>
-<td>64.80</td>
+<td>0.0488</td>
+<td>0.0318</td>
+<td>0.0159</td>
+<td>0.000025</td>
+<td>0.0665</td>
 </tr>
 <tr>
 <th>Brass Block</th>
-<td>0.2</td>
-<td>0.4</td>
-<td>0.3</td>
-<td>0.024</td>
-<td>209.52</td>
+<td>0.0262</td>
+<td>0.0191</td>
+<td>0.0157</td>
+<td>0.000008</td>
+<td>0.0684</td>
 </tr>
 </tbody>
 </table><table border="1" class="dataframe">
@@ -7728,14 +7729,13 @@ m             &amp;= ρ \times V
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/markdown" tabindex="0">
 <p style="page-break-after:always;"></p>
 <h2 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h2><p><strong>A solid object is made of two materials, one material having density of 2 000 kg/m3 and the other having density of 6 000 kg/m3. If the object contains equal volumes of the materials, what is its average density?</strong></p>
-<p>Your Answer to Question 1</p>
+<p>The average density of a material made up of equal volumes of a material with a density of 2000 kg/m³ and 6000 kg/m³ would have a density of 4000 kg/m³.</p>
 <p><strong>The standard kilogram is a platinum-iridium cylinder 39.0 mm in height and 39.0 mm in diameter. What is the density of the material in SI units?</strong></p>
-<p>Your Answer to Question 2</p>
+<p>The volume of a cylinder with a diameter of 39.0mm and a height of 39.0mm would have a volume of 46589.0mm³ and therefore a density of 21464.3 kg/m³.</p>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=c362ae9c-a524-4ef2-bb4d-1bfc304c0a32">
 </div>
 </main>
 </body>
